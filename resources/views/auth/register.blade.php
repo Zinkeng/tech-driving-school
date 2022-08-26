@@ -133,6 +133,7 @@
                     <div class="box1">
                         <br /> <br />
                         <h3 class="text-center fw-bold">{{ __('Register') }}</h3><br />
+                        {{-- <img class="" src="{{ asset('images/car.jpg') }}" alt="driving school car" width="40%"> --}}
                         {{-- <img class="logo-image" src="{{ asset('images/logoImage.jpg') }}" alt="driving school logo" width="40%"> --}}
                         {{-- <img src="{{ asset('images/image_reg.jpeg') }}" alt="driving school image" width="50%"><br/> --}}
                     </div>
