@@ -43,8 +43,15 @@
         height: 500px;
         align-items: center;
         box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+        box-sizing: border-box;
+    }
 
-
+    .box1 img{
+    width: 100%;
+    height: 416px;
+    /*margin-left: 25%;
+    margin-top: 30%;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);*/
     }
 
     .box2 {
@@ -137,7 +144,8 @@
                 <main>
                     <div class="box1">
                         <br /> <br />
-                        <h3 class="text-center fw-bold">{{ __('Login') }}</h3><br />
+                        <h3 class="text-center fw-bold">{{ __('Login') }}</h3>
+                         <img class="" src="{{ asset('images/car.jpg') }}" alt="driving school car" width="40%"> 
                         {{-- <img class="logo-image" src="{{ asset('images/logoImage.jpg') }}" alt="driving school logo" width="40%"> --}}
                         {{-- <img src="{{ asset('images/image_reg.jpeg') }}" alt="driving school image" width="50%"><br/> --}}
                     </div>
